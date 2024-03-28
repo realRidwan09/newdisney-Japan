@@ -1,0 +1,159 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#movie1{
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  padding: 60px;
+  gap: 20px;
+  border: 1px;
+  border-width: 1px;
+}
+
+
+#movie2{
+  width: 100%;
+  height: 96vh;
+  background-color:aliceblue;
+  display: flex;
+  padding: 60px;
+  gap: 20px;
+  
+}
+
+#xmovie3{
+  background-color: rgb(18, 18, 81);
+}
+
+#disney{
+  color: white;
+  
+}
+
+#movie3{
+  width: 100%;
+  height: 95%;
+  display: flex;
+  padding: 60px;
+  gap: 20px;
+  
+}
+
+#one{
+  background-color: aliceblue;
+}
+
+#movie4{
+  width: 100%;
+  height: 96vh;
+  background-color: aliceblue;
+  display: flex;
+  padding: 80px;
+  gap: 25px;
+  
+}
+
+
+#movie5{
+  width: 100%;
+  height: 60vh;
+  background-color:white;
+  display: flex;
+  padding: 80px;
+  gap: 25px;
+
+  
+}
+
+#logob{
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  display: flex;
+  padding: 50px;
+  gap: 25px;
+  
+}
+
+#smovie6{
+  background-color: white;
+  height: 40vh;
+  flex-direction: column;
+
+}
+
+
+#movie6{
+  width: 100%;
+  height: 95%;
+  background-color: white;
+  display: flex;
+  padding: 80px;
+  gap: 20px;
+  
+}
+
+
+#simage7{
+  background-color: white;
+  height: 25vh;
+  flex-direction: column;
+
+}
+
+
+#image7{
+  width: 100%;
+  height: 90%;
+  background-color: white;
+  display: flex;
+  padding: 80px;
+  
+}
+
+#image8{
+  width: 100%;
+  height: 20vh;
+  background-color:white;
+  display: flex;
+  padding: 80px;
+  
+  
+}
+
+#image9{
+  width: 100%;
+  height: 20vh;
+  background-color:white;
+  display: flex;
+  padding: 60px;
+  
+}
+
+h2{
+  text-align: center;
+}
+
+.somedia{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 60px;
+}
+
+#socialMedialogo{
+  width: 20%;
+  height: 50px;
+  align-items: center;
+  margin-left: 35%;
+  padding: 30px;
+}
+
+h6{
+  width: 40%;
+}

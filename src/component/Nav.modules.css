@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+#navWrapcon{
+    
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/src/assets/homedis.jpg);
+   
+}
+
+#navWrap{
+    background-color:white;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+
+#inputSearch{
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+
+input{
+    height: 35px ;
+    width: 130px;
+    
+    
+}
+
+#searching{
+    height: 35px;
+    width: 40px;
+    border-width: 1px;
+    border-style: solid;
+     margin-right: 20px;
+    
+}
+
+#searchlogo{
+    align-items: center;
+    margin-top: 6px;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+#homepageText{
+    width: 35%;
+    margin-left: 50px;
+    margin-top: 200px;
+    text-align: start;
+}
+
+#homepageText h2{
+    color: white;
+}
+
+#homepageText p{
+    color: white;
+}
+
+
+#navWrap #nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+
