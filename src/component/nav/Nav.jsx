@@ -15,7 +15,7 @@ const Nav = ()=>{
                     
                     <div id="inputSearch">
                         <input type="text" placeholder="search within the site"  />
-                        <a id="searching" href=""><img id="searchlogo" src="./src/assets/nsearch.png" alt="" width="20px" height="20px"/> </a>
+                        <a id="searching" href=""><img id="searchlogo" src="./src/assets/download.jpeg" alt="" width="20px" height="20px"/> </a>
                     </div> 
 
                 </div>

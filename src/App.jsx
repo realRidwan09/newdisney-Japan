@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.modules.css'
-import Cards from './component/Cards'
-import Nav from './component/Nav'
-import Basenav from './component/Basenav'
+import Cards from './component/cards/Cards'
+import Nav from './component/nav/Nav'
+import Basenav from './component/basehead/Basenav'
 
 function App() {
   
@@ -59,7 +59,7 @@ function App() {
     },
 
     {
-      image : "./src/assets/scroll1.jpg",
+      image : "./src/assets/scroll6a.jpg",
       heading : "news",
       description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt, eaque maiores incidunt eum dolores vero veniam tempore quisquam quaerat laborum ration.",
       date:"3/24/2024" 
@@ -94,24 +94,24 @@ function App() {
 
     const MovieFour =  [
       {
-        image : "./src/assets/scroll6a.jpg",
+        image : "./src/assets/scroll3a.jpg",
         description : "Chip & Dale birthday commemorative goods."
       },
   
       {
-        image : "./src/assets/scroll6b.PNG",
+        image : "./src/assets/scroll3b.jpg",
         heading : "Casual Mickey items",
         description : "Lorem ipsum dolor sit amet consectetur."
       },
   
       {
-        image : "./src/assets/scroll6c.PNG",
+        image : "./src/assets/scroll3c.jpg",
         heading : "",
         description : "Reconmmeded gift item for the welcome season"
       },
   
       {
-        image : "./src/assets/scroll6d.PNG",
+        image : "./src/assets/scroll3d.jpg",
         heading : "Disney Plastic Gamaguchi and other",
         description : "Chara Marche"
       },
@@ -121,31 +121,31 @@ function App() {
     const movieFive= [
 
       {
-        image : "./src/assets/scro7a.jpeg",
+        image : "./src/assets/scroll7a.jpg",
         heading : "chip and dale",
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt."  
       },
 
     {
-      image : "./src/assets/scro7b.jpeg",
+      image : "./src/assets/scroll7b.jpg",
       heading : "rapunzel",
       description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt."  
     },
 
     {
-      image : "./src/assets/scro7c.jpeg",
+      image : "./src/assets/scroll7c.jpg",
       heading : "ducky and bunny",
       description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt."
     },
 
     {
-      image : "./src/assets/scro7d.jpeg",
+      image : "./src/assets/scroll7d.jpg",
       heading : "rabbit",
       description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt."
     },
 
     {
-      image : "./src/assets/scro7e.jpeg",
+      image : "./src/assets/scroll7e.jpg",
       heading : "Tonsuke",
       description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt.",
       link : "go to chracter list"
@@ -153,58 +153,39 @@ function App() {
   ]
 
   const imageLogo = [
-    {image : "./src/assets/disneylogo.jpeg" },
-    {image : "./src/assets/marvelogo.jpeg" },
-    {image : "./src/assets/pixerlogo.jpeg" },
-    {image : "./src/assets/starwarslogo.jpeg" }
+    {image : "./src/assets/disneylogo.jpg" },
+    {image : "./src/assets/marvelogo.jpg" },
+    {image : "./src/assets/pixarlogo.jpg" },
+    {image : "./src/assets/starwarslogo.png" }
   ]
 
   const movieSix= [
 
-    {
-      image : "./src/assets/scro8a.jpeg",
-      
-    },
-
-  {
-    image : "./src/assets/scro8b.jpeg",
-    
-  },
-
-  {
-    image : "./src/assets/scro8c.jpeg",
-    
-  },
-
-  {
-    image : "./src/assets/scro8d.jpeg",
-   
-  },
-
-  {
-    image : "./src/assets/scro8e.jpeg",
-  },
-
+    {image : "./src/assets/spe1.png"},
+    {image : "./src/assets/spe2.png"},
+    {image : "./src/assets/spe3.png"},
+    {image : "./src/assets/spe4.png"},
+    {image : "./src/assets/spe5.png"},
 ]
 
 const movieSeven= [
 
-  {image : "./src/assets/s9a.png" },
-  {image : "./src/assets/s9b.png" },
-  {image : "./src/assets/s9c.png" },
-  {image : "./src/assets/s9d.png" },
-  {image : "./src/assets/s9e.png" },
-  {image : "./src/assets/s9f.png" }
+  {image : "./src/assets/scr9a.png" },
+  {image : "./src/assets/scr9b.png" },
+  {image : "./src/assets/scr9c.png" },
+  {image : "./src/assets/scr9d.png" },
+  {image : "./src/assets/scr9e.jpg" },
+  {image : "./src/assets/scr9f.png" }
 
 ]
 
 const movieEight= [
-  {image : "./src/assets/sca.png" },
-  {image : "./src/assets/scb.png" },
-  {image : "./src/assets/scc.png" },
-  {image : "./src/assets/scd.png" },
-  {image : "./src/assets/sce.png" },
-  {image : "./src/assets/scf.png" }
+  {image : "./src/assets/scr9f.png" },
+  {image : "./src/assets/scr9e.jpg" },
+  {image : "./src/assets/scr9d.png" },
+  {image : "./src/assets/scr9f.png" },
+  {image : "./src/assets/scr9a.png" },
+  {image : "./src/assets/scr9b.png" }
   
 
 ]
@@ -214,7 +195,7 @@ const movieNine= [
   {image : "./src/assets/scr9b.png" },
   {image : "./src/assets/scr9c.png" },
   {image : "./src/assets/scr9d.png" },
-  {image : "./src/assets/scr9e.png" },
+  {image : "./src/assets/scr9e.jpg" },
   {image : "./src/assets/scr9f.png" }
   
 
@@ -223,10 +204,10 @@ const movieNine= [
 const sociaLink= [
 
  
-  {image : "./src/assets/indownload.png" },
-  {image : "./src/assets/xdownload.png" },
-  {image : "./src/assets/fbdownload.png" },
-  {image : "./src/assets/ytdownload.png" },
+  {image : "./src/assets/insta.png" },
+  {image : "./src/assets/xtwi.png" },
+  {image : "./src/assets/fb.png" },
+  {image : "./src/assets/yt.png" },
 
 ]
 
@@ -271,7 +252,7 @@ const sociaLink= [
 
         <h2 id='disney'>Disney Plus recommended information</h2>
 
-            <div id='movie3' style={{color:"white"}}>
+            <div id='movie3'>
 
               {movieThree.map((Movie3)=>{
                   return(

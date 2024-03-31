@@ -28,6 +28,7 @@
 
 #xmovie3{
   background-color: rgb(18, 18, 81);
+  color: white;
 }
 
 #disney{
@@ -41,6 +42,7 @@
   display: flex;
   padding: 60px;
   gap: 20px;
+  color: white;
   
 }
 
